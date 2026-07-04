@@ -1,0 +1,18 @@
+{
+  "name": "whatsapp-ai-agent",
+  "version": "1.0.0",
+  "description": "AI agent oo ka jawaaba fariimaha WhatsApp ee macaamiisha dukaan online ah, isticmaalaya Claude API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
+}
